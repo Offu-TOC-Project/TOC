@@ -1,8 +1,5 @@
 # TOC
 Take Off Calories
-
-# TOC
-Take Off Calories
 >
 >
 >팀명 :: 오푸(OFFu)   
@@ -10,7 +7,7 @@ Take Off Calories
 
 ***
 
-## 시작화면
+### 시작화면
 >식단관리프로그램 toc(take off calories)
 >
 ><캐릭터 밑에서 움직임>
