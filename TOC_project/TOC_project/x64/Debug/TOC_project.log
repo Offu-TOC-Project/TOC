@@ -1,0 +1,6 @@
+﻿  burnCalories.c
+  exerciseList.c
+  main.c
+C:\Users\july8\TOCproject\TOC\TOC_project\TOC_project\main.c(4,15): warning C4013: 'printExercise'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  코드를 생성하고 있습니다...
+  TOC_project.vcxproj -> C:\Users\july8\TOCproject\TOC\TOC_project\x64\Debug\TOC_project.exe
