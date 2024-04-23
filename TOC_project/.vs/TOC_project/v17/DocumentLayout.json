@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\TOC\\TOC\\TOC_project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\Desktop\\TOC\\TOC\\TOC_project\\TOC_project\\FoodRecord.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|solutionrelative:TOC_project\\FoodRecord.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\Desktop\\TOC\\TOC\\TOC_project\\TOC_project\\FileName.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|solutionrelative:TOC_project\\FileName.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\Desktop\\TOC\\TOC\\TOC_project\\TOC_project\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|solutionrelative:TOC_project\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\Desktop\\TOC\\TOC\\TOC_project\\TOC_project\\FoodList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|solutionrelative:TOC_project\\FoodList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FoodList.h",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TOC\\TOC\\TOC_project\\TOC_project\\FoodList.h",
+              "RelativeDocumentMoniker": "TOC_project\\FoodList.h",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TOC\\TOC\\TOC_project\\TOC_project\\FoodList.h",
+              "RelativeToolTip": "TOC_project\\FoodList.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-23T00:40:13.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FoodRecord.c",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TOC\\TOC\\TOC_project\\TOC_project\\FoodRecord.c",
+              "RelativeDocumentMoniker": "TOC_project\\FoodRecord.c",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TOC\\TOC\\TOC_project\\TOC_project\\FoodRecord.c",
+              "RelativeToolTip": "TOC_project\\FoodRecord.c",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-23T00:38:13.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileName.c",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TOC\\TOC\\TOC_project\\TOC_project\\FileName.c",
+              "RelativeDocumentMoniker": "TOC_project\\FileName.c",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TOC\\TOC\\TOC_project\\TOC_project\\FileName.c",
+              "RelativeToolTip": "TOC_project\\FileName.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-23T00:49:26.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "main.c",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\TOC\\TOC\\TOC_project\\TOC_project\\main.c",
               "RelativeDocumentMoniker": "TOC_project\\main.c",
               "ToolTip": "C:\\Users\\User\\Desktop\\TOC\\TOC\\TOC_project\\TOC_project\\main.c",
               "RelativeToolTip": "TOC_project\\main.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-18T07:24:30.916Z",
               "EditorCaption": ""
