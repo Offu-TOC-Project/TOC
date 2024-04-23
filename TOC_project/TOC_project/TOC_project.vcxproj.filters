@@ -21,7 +21,7 @@
     <ClCompile Include="FoodRecord.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="FileName.c">
+    <ClCompile Include="Calculater.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
