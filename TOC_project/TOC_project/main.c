@@ -2,5 +2,5 @@
 
 int main() {
 	FoodRecord();
-	FileName();
+	calculate();
 }
