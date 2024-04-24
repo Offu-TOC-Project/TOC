@@ -3,7 +3,8 @@
 
 extern struct Exercise exerciseList[];
 
-int totalKcal = 1230;
+// 하루 먹은 칼로리만큼 토탈로 계산된 칼로리를 받아오기
+int totalKcal = 1230;		// 임시로 지정해놓은 변수
 
 int calculateExerciseTimeHour(int index) {
 	int hour = totalKcal / exerciseList[index].burnKcal;
@@ -16,6 +17,10 @@ int calculateExerciseTimeMinute(int index) {
 	int caloriesPerMinute = exerciseList[index].burnKcal / exerciseList[index].minute;
 	int minute = (restKcal / caloriesPerMinute) % 60;
 	return minute;
+}
+
+int random() {
+
 }
 
 int printExercise() {
