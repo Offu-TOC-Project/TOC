@@ -24,5 +24,16 @@
     <ClCompile Include="KcalGraph.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="MenuChoice.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GotoXY.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GOTOXY.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

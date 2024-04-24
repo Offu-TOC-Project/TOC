@@ -1,4 +1,1 @@
-﻿  FoodRecord.c
-C:\Users\leaf\OneDrive\바탕 화면\TOC\TOC_project\TOC_project\FoodRecord.c(44,5): warning C4013: 'KcalGraph'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\leaf\OneDrive\바탕 화면\TOC\TOC_project\TOC_project\FoodRecord.c(79,1): warning C4716: 'FoodRecord': 값을 반환해야 합니다.
-  TOC_project.vcxproj -> C:\Users\leaf\OneDrive\바탕 화면\TOC\TOC_project\x64\Debug\TOC_project.exe
+﻿  TOC_project.vcxproj -> C:\Users\leaf\OneDrive\바탕 화면\TOC\TOC_project\x64\Debug\TOC_project.exe
