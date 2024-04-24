@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 #include "Exercise.h"
 
 extern struct Exercise exerciseList[];
@@ -12,7 +14,7 @@ int calculateExerciseTimeHour(int index) {
 }
 
 int calculateExerciseTimeMinute(int index) {
-	int hour = totalKcal / exerciseList[index].burnKcal;
+	int hour = calculateExerciseTimeHour(index);
 	int restKcal = totalKcal - hour;
 	int caloriesPerMinute = exerciseList[index].burnKcal / exerciseList[index].minute;
 	int minute = (restKcal / caloriesPerMinute) % 60;
@@ -20,12 +22,18 @@ int calculateExerciseTimeMinute(int index) {
 }
 
 int random() {
-
+	// 0~9 난수 생성
+	srand(time(NULL));
+	int random = 0;
+	random = rand() % 9;
+	return random;
 }
 
 int printExercise() {
+	int randomNum = random();
 	int i = 0;
-	for (int i = 0; i < numExercises; i++) {
+
+	for (i; i < numExercises; i++) {
 		int hour = calculateExerciseTimeHour(i);
 		int minute = calculateExerciseTimeMinute(i);
 		printf("%s를 %d시간 %d분 이상 하면 칼로리를 태울 수 있습니다.\n", exerciseList[i].sportsName, hour, minute);
