@@ -24,7 +24,6 @@ int calculateExerciseTimeMinute(int index) {
 int random() {
 	// 0~9 난수 생성
 	srand(time(NULL));
-	//srand(clock());		// pc 시작시간을 기준으로 하기 때문에 동일한 수 생성됨
 	int random = 0;
 	random = rand() % 9;
 	return random + 1;

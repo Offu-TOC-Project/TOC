@@ -25,7 +25,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 28,
+          "DockedWidth": 136,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -60,7 +60,7 @@
           ]
         },
         {
-          "DockedWidth": 372,
+          "DockedWidth": 264,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -71,7 +71,7 @@
               "RelativeDocumentMoniker": "TOC_project\\burnCalories.c",
               "ToolTip": "C:\\Users\\User\\TOCproject\\TOC\\TOC_project\\TOC_project\\burnCalories.c",
               "RelativeToolTip": "TOC_project\\burnCalories.c",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADcAAAABAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-24T02:41:55.218Z",
               "EditorCaption": ""
