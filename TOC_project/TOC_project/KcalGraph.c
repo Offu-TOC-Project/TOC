@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <time.h>
+#include <Windows.h>
 
+#include "GOTOXY.h""
 
 int Gragh_Morning(int TotalKcal) {
 
@@ -23,7 +25,7 @@ int Gragh_Morning(int TotalKcal) {
 int Gragh_Lunch(int TotalKcal) {
     // 점심 메시지 출력
     if (TotalKcal <= 450) {
-        printf("배고파.\n\n");
+        printf("더 먹어도 괜찮아!\n\n");
     }
     else if (TotalKcal <= 1050) {
         printf("적당히 좋아 !!\n\n");
@@ -55,8 +57,14 @@ int Gragh_Dinner(int TotalKcal) {
 }
 
 int KcalGraph(int TotalKcal) {
-    // 입력된 kcal가 누적된 하루 적정 kcal 그래프
+    
 
+    time_t t;
+    struct tm* localTime;
+
+    // 입력된 kcal가 누적된 하루 적정 kcal 그래프
+    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 14);
+    GotoXY(1, 9);
     printf("[");
     for (int i = 0; i < 24; ++i) {
         if (i * 1500 / 24 <= TotalKcal) {
@@ -66,10 +74,12 @@ int KcalGraph(int TotalKcal) {
             printf(" ");
         }
     }
-    printf("] %d%%\n\n", TotalKcal * 100 / 1500);
+    printf("%d%% ]", TotalKcal * 100 / 1500);
 
-    time_t t;
-    struct tm* localTime;
+    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
+    GotoXY(10, 10);
+    printf("%d /1500 Kcal\n\n", TotalKcal);
+
 
     time(&t); // 현재 시간을 초 단위로 얻음
     localTime = localtime(&t); // 초 단위의 시간을 현지 시간대로 변환
