@@ -24,9 +24,24 @@
     <ClCompile Include="Cursor.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="FoodRecord.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GotoXY.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="KcalGraph.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuChoice.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cursor.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GOTOXY.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

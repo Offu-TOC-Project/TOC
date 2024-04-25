@@ -128,11 +128,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Cursor.c" />
+    <ClCompile Include="FoodRecord.c" />
+    <ClCompile Include="GotoXY.c" />
+    <ClCompile Include="KcalGraph.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="MenuChoice.c" />
     <ClCompile Include="startPage.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cursor.h" />
+    <ClInclude Include="GOTOXY.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
