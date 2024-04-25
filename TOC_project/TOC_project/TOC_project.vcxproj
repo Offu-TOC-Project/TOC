@@ -130,6 +130,7 @@
     <ClCompile Include="burnCalories.c" />
     <ClCompile Include="exerciseList.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="personalKcal.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Exercise.h" />
