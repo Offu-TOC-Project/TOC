@@ -6,7 +6,7 @@
 
 int Gragh_Morning(int TotalKcal) {          // 아침 메시지 출력
     if (TotalKcal <= 450) {
-        printf("적당히 먹은 거 같아!\n\n");
+        printf("적당히 먹은 거 같아!\n\n");             // 대화 앞에 name 추가 예정
     }
     else if (TotalKcal <= 1050) {
         printf("다음 식단을 조절해야겠어!\n\n");
@@ -62,12 +62,12 @@ int KcalGraph(int TotalKcal) {
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 6);
     GotoXY(0, 9);
     printf("[");
-    for (int i = 0; i < 14; ++i) {
-        if (i * 1500 / 14 <= TotalKcal) {
+    for (int i = 0; i < 24; ++i) {
+        if (i * 1500 / 24 <= TotalKcal) {
             printf("■");                                                // 누적 합계 그래프 표시
         }
         else {
-            printf("  ");
+            printf(" ");
         }
     }
     printf("%d%%]", TotalKcal * 100 / 1500);
