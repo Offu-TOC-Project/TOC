@@ -127,8 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Cursor.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="startPage.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cursor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
