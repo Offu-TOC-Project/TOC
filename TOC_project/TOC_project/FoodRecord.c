@@ -45,22 +45,30 @@ int TotalKcal() {
 	
 	for (int i = 0; i < SIZE; i++){
 		for (int j = 0; j < sizeof(FoodList)/sizeof(FoodList[0]); j++){
-			if (strcmp(SaveName[i], FoodList[j].FoodName) == 0 && SaveGram[i] == FoodList[j].Gram) {
-				GotoXY(1, 7);
-				printf("%s %d g의 칼로리는 %d kcal야.\n", FoodList[j].FoodName, FoodList[j].Gram, FoodList[j].Kcal);
-								
+			if (strcmp(SaveName[i], FoodList[j].FoodName) == 0 && SaveGram[i] == FoodList[j].Gram) {	
 				TotalKcal += FoodList[j].Kcal;
-
-				GotoXY(1, 10);
-				KcalGraph(TotalKcal);						// 그래프 출력
-				
-				SaveKcal[i] = FoodList[j].Kcal;
-				GotoXY(40, i + 2);
-				printf("%s    %d    %d\n", SaveName[i], SaveGram[i], FoodList[j].Kcal);			// 입력된 식단 누적 기록
 			}				
 		}
 	}
 	return TotalKcal;
+	
+}
+
+int printKcal() {
+
+
+	for (int i = 0; i < SIZE; i++) {
+		for (int j = 0; j < sizeof(FoodList) / sizeof(FoodList[0]); j++) {
+			if (strcmp(SaveName[i], FoodList[j].FoodName) == 0 && SaveGram[i] == FoodList[j].Gram) {
+				GotoXY(1, 7);
+				printf("%s %d g의 칼로리는 %d kcal야.\n", FoodList[j].FoodName, FoodList[j].Gram, FoodList[j].Kcal);
+				
+				GotoXY(1, 10);
+				KcalGraph(TotalKcal());						// 그래프 출력
+			}
+		}
+	}
+
 }
 
 int FoodRecord() {
@@ -80,6 +88,7 @@ int FoodRecord() {
 		getchar();
 
 		TotalKcal();
+		printKcal();
 				
 		if (menuChoice() == 20) {
 			break;
