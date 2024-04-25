@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\TOCproject\\TOC\\TOC_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\TOCproject\\TOC\\TOC_project\\TOC_project\\personalKcal.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|solutionrelative:TOC_project\\personalKcal.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\TOCproject\\TOC\\TOC_project\\TOC_project\\burnCalories.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|solutionrelative:TOC_project\\burnCalories.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\TOCproject\\TOC\\TOC_project\\TOC_project\\personalKcal.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|solutionrelative:TOC_project\\personalKcal.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\TOCproject\\TOC\\TOC_project\\TOC_project\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -46,8 +46,7 @@
               "RelativeToolTip": "TOC_project\\main.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-04-18T07:24:30.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T07:24:30.916Z"
             },
             {
               "$type": "Document",
@@ -63,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "burnCalories.c",
               "DocumentMoniker": "C:\\Users\\User\\TOCproject\\TOC\\TOC_project\\TOC_project\\burnCalories.c",
               "RelativeDocumentMoniker": "TOC_project\\burnCalories.c",
@@ -82,13 +81,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "personalKcal.c",
               "DocumentMoniker": "C:\\Users\\User\\TOCproject\\TOC\\TOC_project\\TOC_project\\personalKcal.c",
               "RelativeDocumentMoniker": "TOC_project\\personalKcal.c",
               "ToolTip": "C:\\Users\\User\\TOCproject\\TOC\\TOC_project\\TOC_project\\personalKcal.c",
               "RelativeToolTip": "TOC_project\\personalKcal.c",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-25T04:54:15.296Z",
               "EditorCaption": ""
