@@ -135,6 +135,7 @@
     <ClCompile Include="KcalGraph.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="MenuChoice.c" />
+    <ClCompile Include="personalKcal.c" />
     <ClCompile Include="startPage.c" />
   </ItemGroup>
   <ItemGroup>

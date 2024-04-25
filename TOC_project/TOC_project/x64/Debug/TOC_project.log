@@ -1,7 +1,6 @@
-﻿  FoodRecord.c
-C:\Users\User\Desktop\새 폴더\TOC_project\TOC_project\FoodRecord.c(5,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
-C:\Users\User\Desktop\새 폴더\TOC_project\TOC_project\FoodRecord.c(78,5): warning C4013: 'KcalGraph'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\User\Desktop\새 폴더\TOC_project\TOC_project\FoodRecord.c(104,7): warning C4013: 'menuChoice'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\User\Desktop\새 폴더\TOC_project\TOC_project\FoodRecord.c(113,1): warning C4716: 'FoodRecord': 값을 반환해야 합니다.
-C:\Users\User\Desktop\새 폴더\TOC_project\TOC_project\FoodRecord.c(83,1): warning C4716: 'printKcal': 값을 반환해야 합니다.
+﻿  main.c
+C:\Users\User\Desktop\새 폴더\TOC_project\TOC_project\main.c(4,2): warning C4013: 'start'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Desktop\새 폴더\TOC_project\TOC_project\main.c(5,2): warning C4013: 'FoodRecord'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Desktop\새 폴더\TOC_project\TOC_project\main.c(6,2): warning C4013: 'RecordDiet'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Desktop\새 폴더\TOC_project\TOC_project\main.c(7,2): warning C4013: 'printExercise'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
   TOC_project.vcxproj -> C:\Users\User\Desktop\새 폴더\TOC_project\x64\Debug\TOC_project.exe

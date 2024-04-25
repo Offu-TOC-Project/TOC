@@ -333,7 +333,6 @@ void prints_ch6() {
 
 // 방향키 설정
 int keycontrol() {
-	char getch();
 	char temp = getch();
 
 	if (temp == 'w' || temp == 'W') {
@@ -472,6 +471,15 @@ int start() {
 	printf("나의 이름을 지어줄래?\n\n");
 	gotoxy(28, 14);
 	scanf("%s", name);
+	getchar();
+	system("cls");
+
+	gotoxy(23, 12);
+	getSex();
+	system("cls");
+
+	gotoxy(23, 12);
+	getWeight();
 	system("cls");
 
 	Cursor(); // 커서 없애는 함수

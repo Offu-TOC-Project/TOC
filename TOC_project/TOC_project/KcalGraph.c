@@ -4,14 +4,15 @@
 
 #include "GOTOXY.h""
 
+
 int Gragh_Morning(int TotalKcal) {          // 아침 메시지 출력
-    if (TotalKcal <= 450) {
+    if (TotalKcal <= personalKcal() * 0.3) {
         printf("적당히 먹은 거 같아!\n\n");             // 대화 앞에 name 추가 예정
     }
-    else if (TotalKcal <= 1050) {
+    else if (TotalKcal <= personalKcal() * 0.7) {
         printf("다음 식단을 조절해야겠어!\n\n");
     }
-    else if (TotalKcal <= 1500) {
+    else if (TotalKcal <= personalKcal()) {
         printf("너무 많이 먹은 거 같아 ㅠㅠ\n\n");
     }
     else {
@@ -21,13 +22,13 @@ int Gragh_Morning(int TotalKcal) {          // 아침 메시지 출력
 }
 
 int Gragh_Lunch(int TotalKcal) {            // 점심 메시지 출력
-    if (TotalKcal <= 450) {
+    if (TotalKcal <= personalKcal() * 0.3) {
         printf("더 먹어도 괜찮아!\n\n");
     }
-    else if (TotalKcal <= 1050) {
+    else if (TotalKcal <= personalKcal() * 0.7) {
         printf("적당히 좋아 !!      \n\n");
     }
-    else if (TotalKcal <= 1500) {
+    else if (TotalKcal <= personalKcal()) {
         printf("너무 많이 먹은 거 같아 ㅠㅠ\n\n");
     }
     else {
@@ -37,13 +38,13 @@ int Gragh_Lunch(int TotalKcal) {            // 점심 메시지 출력
 }
 
 int Gragh_Dinner(int TotalKcal) {           // 저녁 메시지 출력
-    if (TotalKcal <= 450) {
+    if (TotalKcal <= personalKcal() * 0.3) {
         printf("아직 부족해. 너무 안 먹은거 아냐??\n\n");
     }
-    else if (TotalKcal <= 1050) {
+    else if (TotalKcal <= personalKcal() * 0.7) {
         printf("조금 더 먹어도 될 거 같애         \n\n");
     }
-    else if (TotalKcal <= 1500) {
+    else if (TotalKcal <= personalKcal()) {
         printf("딱 좋아.                          \n\n");
     }
     else {
@@ -63,18 +64,18 @@ int KcalGraph(int TotalKcal) {
     GotoXY(0, 9);
     printf("[");
     for (int i = 0; i < 24; ++i) {
-        if (i * 1500 / 24 <= TotalKcal) {
+        if (i * personalKcal() / 24 <= TotalKcal) {
             printf("■");                                                // 누적 합계 그래프 표시
         }
         else {
             printf(" ");
         }
     }
-    printf("%d%%]", TotalKcal * 100 / 1500);
+    printf("%d%%]", TotalKcal * 100 / personalKcal());
 
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 8);
     GotoXY(10, 10);
-    printf("%d /1500 Kcal\n\n", TotalKcal);                             // 누적 합계 숫자로 표시
+    printf("%d / %d Kcal\n\n", TotalKcal, personalKcal());                             // 누적 합계 숫자로 표시
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 
 

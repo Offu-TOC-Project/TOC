@@ -2,7 +2,8 @@
 #include <windows.h>
 #include <conio.h>
 
-#include "GOTOXY.h""
+#include "GOTOXY.h"
+#include "Cursor.h"
 
 // menuChoice 키보드 값
 #define LEFT 0
@@ -28,7 +29,7 @@ int keyControl() {
 int menuArrow() {
 	int x = 1;
 	int y = 15;
-
+	Cursor();
 	GotoXY(x, y);
 	printf("> 더 입력할래.\n");		
 	GotoXY(x + 22, y);

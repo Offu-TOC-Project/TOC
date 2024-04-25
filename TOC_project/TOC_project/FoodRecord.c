@@ -51,7 +51,6 @@ int TotalKcal() {
 		}
 	}
 	return TotalKcal;
-	
 }
 
 int printKcal() {
@@ -68,24 +67,42 @@ int printKcal() {
 			}
 		}
 	}
+}
 
+int RecordDiet() {
+	for (int i = 0; i < SIZE; i++) {
+		for (int j = 0; j < sizeof(FoodList) / sizeof(FoodList[0]); j++) {
+			if (strcmp(SaveName[i], FoodList[j].FoodName) == 0 && SaveGram[i] == FoodList[j].Gram) {
+
+				SaveKcal[i] = FoodList[j].Kcal;
+				GotoXY(40, i + 2);
+				//sleep(2000);
+				printf("%s %d g %d kcal\n", SaveName[i], SaveGram[i], FoodList[j].Kcal);			// 입력된 식단 누적 기록
+			}
+		}
+	}
+	for (int i = 0; i < SIZE; i++) {
+		GotoXY(40, i + 5);
+		printf("----------------------------------\n");
+		GotoXY(40, i + 6);
+		printf("총 합계 : %d kcal \n", TotalKcal(TotalKcal));
+		break;
+	}
 }
 
 int FoodRecord() {
-
 	int i = 0;
 	while(1){
 		printf("┌──────────────────────────────┐\n\n");
 		printf("     오늘 먹은 음식 :                      ");
 		printf("\n\n     음식 양 : ___ g                 ");
 		printf("\n\n└──────────────────────────────┘\n");
-
+		
 		GotoXY(22, 2);
 		scanf(" %s", SaveName[i]);
 		GotoXY(15, 4);
 		scanf(" %d", &SaveGram[i]);
 		i++;
-		getchar();
 
 		TotalKcal();
 		printKcal();
@@ -97,6 +114,6 @@ int FoodRecord() {
 		system("cls");
 		
 	} 
-
+	
 	system("cls");
 }
