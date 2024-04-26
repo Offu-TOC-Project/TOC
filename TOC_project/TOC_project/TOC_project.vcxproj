@@ -127,13 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Documents\카카오톡 받은 파일\last_screen.c" />
     <ClCompile Include="burnCalories.c" />
     <ClCompile Include="Cursor.c" />
     <ClCompile Include="exerciseList.c" />
     <ClCompile Include="FoodRecord.c" />
     <ClCompile Include="GotoXY.c" />
     <ClCompile Include="KcalGraph.c" />
+    <ClCompile Include="lastScreen.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="MenuChoice.c" />
     <ClCompile Include="personalKcal.c" />
