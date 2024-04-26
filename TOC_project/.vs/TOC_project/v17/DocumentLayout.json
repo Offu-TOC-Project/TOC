@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\personalKcal.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|solutionrelative:TOC_project\\personalKcal.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\burnCalories.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|solutionrelative:TOC_project\\burnCalories.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\last_screen.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|solutionrelative:TOC_project\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\startPage.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -22,16 +26,12 @@
       "RelativeMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|solutionrelative:TOC_project\\FoodRecord.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|solutionrelative:TOC_project\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\personalKcal.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|solutionrelative:TOC_project\\personalKcal.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\KcalGraph.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|solutionrelative:TOC_project\\KcalGraph.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\burnCalories.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|solutionrelative:TOC_project\\burnCalories.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\Cursor.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -65,7 +65,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MenuChoice.c",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\MenuChoice.c",
               "RelativeDocumentMoniker": "TOC_project\\MenuChoice.c",
@@ -73,7 +73,8 @@
               "RelativeToolTip": "TOC_project\\MenuChoice.c",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-04-25T02:22:22.755Z"
+              "WhenOpened": "2024-04-25T02:22:22.755Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -83,7 +84,7 @@
               "RelativeDocumentMoniker": "..\\..\\..\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\last_screen.c",
               "ToolTip": "C:\\Users\\User\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\last_screen.c",
               "RelativeToolTip": "..\\..\\..\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\last_screen.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-26T00:55:44.03Z",
               "EditorCaption": ""
@@ -126,15 +127,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "startPage.c",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\startPage.c",
               "RelativeDocumentMoniker": "TOC_project\\startPage.c",
               "ToolTip": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\startPage.c",
               "RelativeToolTip": "TOC_project\\startPage.c",
-              "ViewState": "AQIAAAUBAAAAAAAAAAAAAAsAAAABAAAA",
+              "ViewState": "AQIAAMAAAAAAAAAAAAAAANMAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-04-23T07:03:46.503Z"
+              "WhenOpened": "2024-04-23T07:03:46.503Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -152,23 +154,24 @@
         },
         {
           "DockedWidth": 228,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FoodRecord.c",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\FoodRecord.c",
               "RelativeDocumentMoniker": "TOC_project\\FoodRecord.c",
               "ToolTip": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\FoodRecord.c",
               "RelativeToolTip": "TOC_project\\FoodRecord.c",
-              "ViewState": "AQIAACoAAAAAAAAAAAAnwEgAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-04-25T06:22:50.47Z"
+              "WhenOpened": "2024-04-25T06:22:50.47Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "personalKcal.c",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\personalKcal.c",
               "RelativeDocumentMoniker": "TOC_project\\personalKcal.c",
@@ -181,19 +184,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "burnCalories.c",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\burnCalories.c",
               "RelativeDocumentMoniker": "TOC_project\\burnCalories.c",
               "ToolTip": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\burnCalories.c",
               "RelativeToolTip": "TOC_project\\burnCalories.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAeAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEUAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-04-25T02:39:53.834Z"
+              "WhenOpened": "2024-04-25T02:39:53.834Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "KcalGraph.c",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\KcalGraph.c",
               "RelativeDocumentMoniker": "TOC_project\\KcalGraph.c",
@@ -205,15 +209,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "main.c",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\main.c",
               "RelativeDocumentMoniker": "TOC_project\\main.c",
               "ToolTip": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\main.c",
               "RelativeToolTip": "TOC_project\\main.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-04-18T07:24:30.916Z"
+              "WhenOpened": "2024-04-18T07:24:30.916Z",
+              "EditorCaption": ""
             }
           ]
         }

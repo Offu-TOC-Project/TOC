@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <Windows.h>
 #include "Exercise.h"
 
 extern struct Exercise exerciseList[];
@@ -42,17 +43,36 @@ int printBar() {
 	do {
 		currentTime = time(NULL);
 		elapsedSeconds = difftime(currentTime, startTime);
-		// 경과된 시간이 0.1초 이상이면 '-'를 출력
+		// 경과된 시간이 0.1초 이상이면 출력
 		if (elapsedSeconds >= 0.1) {
 			// 한 번에 추가되는 '-'의 개수를 시간에 비례하도록 설정
-			int count = elapsedSeconds * 10; // 1초당 10번의 '-'를 출력
+			int count = elapsedSeconds * 6;
 			// '-'의 개수가 이전에 출력한 것과 같다면 출력하지 않음
 			if (count != prevCount) {
-				printf("------");
+				for (int i = 0; i < 4; i++)
+				{
+					if (i == 0) { 
+						printf("▲ ");
+						Sleep(5);
+					}
+					else if (i == 1) {
+						printf("▶ ");
+						Sleep(5);
+					}
+					else if (i == 2) {
+						printf("▼ ");
+						Sleep(5);
+					}
+					else if (i == 3) {
+						printf("◀ ");
+						Sleep(5);
+					}
+					Sleep(3);
+				}
 				prevCount = count;
 			}
 		}
-	} while (elapsedSeconds < 10); // 10초 동안의 경과된 시간을 측정
+	} while (elapsedSeconds < 6); // 6초 동안의 경과된 시간을 측정
 
 	printf("\n"); // 출력을 마무리하기 위해 추가
 
@@ -74,14 +94,22 @@ int printExercise() {
 		randomIndexArr[i] = randomIndex;
 	}
 
+	GotoXY(14, 23);
 	printBar();
+	GotoXY(25, 25);
+	printf("먹은만큼 빼기 위해서는");
 
 	for (int j = 0; j < 3; j++)
 	{
 		int hour = calculateExerciseTimeHour(randomIndexArr[j]);
 		int minute = calculateExerciseTimeMinute(randomIndexArr[j]);
-		printf("%s를 %d시간 %d분 이상 하면 칼로리를 태울 수 있습니다.\n", exerciseList[randomIndexArr[j]].sportsName, hour, minute);
+		
+		GotoXY(21, 27 + j);
+		printf("%s를 %d시간 %d분을 해야해!", exerciseList[randomIndexArr[j]].sportsName, hour, minute);
 	}
+
+	GotoXY(27, 31);
+	printf("화이팅이야ㅎㅎ\n");
 
 	return 0;
 }

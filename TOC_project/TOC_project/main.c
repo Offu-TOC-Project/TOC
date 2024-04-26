@@ -5,6 +5,4 @@ int main() {
 	FoodRecord();
 	RecordDiet();
 	last_screen();
-	printf("\n");
-	printExercise();
 }
