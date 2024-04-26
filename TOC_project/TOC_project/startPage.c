@@ -406,7 +406,9 @@ int choice() {
 	}
 }
 
-int choice_code() {
+void exit(int status);
+
+void choice_code() {
 	int choice_code = choice();
 	if (choice_code == 0) {
 		system("cls");
@@ -427,8 +429,8 @@ int choice_code() {
 		prints_ch4();
 		gotoxy(22, 25);
 		printf("알았어.. 그럼 다음에 다시 와줘ㅠ\n");
-		return 0;
-
+		
+		return exit(0);
 	}
 }
 
@@ -514,7 +516,6 @@ int start() {
 	printf("식단관리 좀 도와줄래?\n");
 	Sleep(3000);
 	system("cls");
-
 
 	// 선택지 제시
 	choice_code();

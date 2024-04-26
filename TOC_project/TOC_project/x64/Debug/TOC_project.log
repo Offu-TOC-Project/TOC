@@ -1,6 +1,12 @@
-﻿  main.c
-C:\Users\User\Desktop\새 폴더\TOC_project\TOC_project\main.c(4,2): warning C4013: 'start'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\User\Desktop\새 폴더\TOC_project\TOC_project\main.c(5,2): warning C4013: 'FoodRecord'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\User\Desktop\새 폴더\TOC_project\TOC_project\main.c(6,2): warning C4013: 'RecordDiet'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\User\Desktop\새 폴더\TOC_project\TOC_project\main.c(7,2): warning C4013: 'printExercise'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  TOC_project.vcxproj -> C:\Users\User\Desktop\새 폴더\TOC_project\x64\Debug\TOC_project.exe
+﻿  startPage.c
+C:\Users\User\Desktop\tocproject_test\TOC_project\TOC_project\startPage.c(336,14): warning C4013: 'getch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Desktop\tocproject_test\TOC_project\TOC_project\startPage.c(409,6): warning C4273: 'exit': dll 연결이 일치하지 않습니다.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdlib.h(56,48):
+  'exit'의 이전 정의를 참조하십시오.
+  
+C:\Users\User\Desktop\tocproject_test\TOC_project\TOC_project\startPage.c(434,17): warning C4098: 'choice_code': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\User\Desktop\tocproject_test\TOC_project\TOC_project\startPage.c(481,2): warning C4013: 'getSex'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Desktop\tocproject_test\TOC_project\TOC_project\startPage.c(485,2): warning C4013: 'getWeight'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Desktop\tocproject_test\TOC_project\TOC_project\startPage.c(347,1): warning C4715: 'keycontrol': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\User\Desktop\tocproject_test\TOC_project\TOC_project\startPage.c(523,1): warning C4716: 'start': 값을 반환해야 합니다.
+  TOC_project.vcxproj -> C:\Users\User\Desktop\tocproject_test\TOC_project\x64\Debug\TOC_project.exe
