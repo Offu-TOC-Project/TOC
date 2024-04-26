@@ -7,5 +7,4 @@ int main() {
 	last_screen();
 	printf("\n");
 	printExercise();
-	
 }

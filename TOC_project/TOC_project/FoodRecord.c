@@ -2,7 +2,8 @@
 #include <string.h>
 #include <Windows.h>
 
-#include "GOTOXY.h""
+#include "GOTOXY.h"
+#include "Cursor.h"
 
 #define SIZE 20
 
@@ -31,7 +32,7 @@ Food FoodList[] = {
 	{"저당짜장", 100, 90},
 	{"치킨", 650, 1649},
 	{"오트밀", 45, 362},
-	{"라면", 550, 526},
+	{"라면", 550, 526}
 };
 
 char SaveName[SIZE][20];
@@ -76,7 +77,6 @@ int RecordDiet() {
 
 				SaveKcal[i] = FoodList[j].Kcal;
 				GotoXY(40, i + 2);
-				//sleep(2000);
 				printf("%s %d g %d kcal\n", SaveName[i], SaveGram[i], FoodList[j].Kcal);			// 입력된 식단 누적 기록
 			}
 		}
@@ -88,10 +88,12 @@ int RecordDiet() {
 		printf("총 합계 : %d kcal \n", TotalKcal(TotalKcal));
 		break;
 	}
+	Sleep(3000);
 	system("cls");
 }
 
 int FoodRecord() {
+	CursorA();
 	int i = 0;
 	while(1){
 		printf("┌──────────────────────────────┐\n\n");
@@ -110,6 +112,7 @@ int FoodRecord() {
 				
 		if (menuChoice() == 20) {
 			break;
+
 		}
 
 		system("cls");

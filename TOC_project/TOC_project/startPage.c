@@ -434,6 +434,8 @@ void choice_code() {
 	}
 }
 
+char name[100]; // 사용자 이름 입력받기
+
 int start() {
 
 	Cursor(); // 커서 없애는 함수
@@ -449,7 +451,7 @@ int start() {
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), colorNum);
 	system("cls");  // 메인화면 전환
 
-	char name[100]; // 사용자 이름 입력받기
+	CursorA();
 	gotoxy(23, 12);
 	printf("나의 이름을 지어줄래?\n\n");
 	gotoxy(28, 14);

@@ -7,51 +7,53 @@
 
 int Gragh_Morning(int TotalKcal) {          // 아침 메시지 출력
     if (TotalKcal <= personalKcal() * 0.3) {
-        printf("적당히 먹은 거 같아!\n\n");             // 대화 앞에 name 추가 예정
+        printf("적당히 먹은 거 같아!");             // 대화 앞에 name 추가 예정
     }
     else if (TotalKcal <= personalKcal() * 0.7) {
-        printf("다음 식단을 조절해야겠어!\n\n");
+        printf("다음 식단을 조절해야겠어!");
     }
     else if (TotalKcal <= personalKcal()) {
-        printf("너무 많이 먹은 거 같아 ㅠㅠ\n\n");
+        printf("너무 많이 먹은 거 같아 ㅠㅠ");
     }
     else {
-        printf("시작부터 너무 한 거 아냐?    \n\n");
+        printf("시작부터 너무 한 거 아냐?    ");
     }
     
 }
 
 int Gragh_Lunch(int TotalKcal) {            // 점심 메시지 출력
     if (TotalKcal <= personalKcal() * 0.3) {
-        printf("더 먹어도 괜찮아!\n\n");
+        printf("더 먹어도 괜찮아!");
     }
     else if (TotalKcal <= personalKcal() * 0.7) {
-        printf("적당히 좋아 !!      \n\n");
+        printf("적당히 좋아 !!      ");
     }
     else if (TotalKcal <= personalKcal()) {
-        printf("너무 많이 먹은 거 같아 ㅠㅠ\n\n");
+        printf("너무 많이 먹은 거 같아 ㅠㅠ");
     }
     else {
-        printf("배가 터질거 같아. 저녁에 어쩔려구 그래???!?!?!??\n\n");
+        printf("배가 터질거 같아. 저녁에 어쩔려구 그래???!?!?!??");
     }
     
 }
 
 int Gragh_Dinner(int TotalKcal) {           // 저녁 메시지 출력
     if (TotalKcal <= personalKcal() * 0.3) {
-        printf("아직 부족해. 너무 안 먹은거 아냐??\n\n");
+        printf("아직 부족해. 너무 안 먹은거 아냐??");
     }
     else if (TotalKcal <= personalKcal() * 0.7) {
-        printf("조금 더 먹어도 될 거 같애         \n\n");
+        printf("조금 더 먹어도 될 거 같애         ");
     }
     else if (TotalKcal <= personalKcal()) {
-        printf("딱 좋아.                          \n\n");
+        printf("딱 좋아.                          ");
     }
     else {
-        printf("너무 많이 먹은거 같아 ㅠㅠ        \n\n");
+        printf("너무 많이 먹은거 같아 ㅠㅠ        ");
     }
     
 }
+
+    extern char name[100];
 
 int KcalGraph(int TotalKcal) {
     
@@ -78,7 +80,7 @@ int KcalGraph(int TotalKcal) {
     printf("%d / %d Kcal\n\n", TotalKcal, personalKcal());                             // 누적 합계 숫자로 표시
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 
-
+    printf("[%s] ", name);
     time(&t); // 현재 시간을 초 단위로 얻음
     localTime = localtime(&t); // 초 단위의 시간을 현지 시간대로 변환
 
@@ -91,5 +93,4 @@ int KcalGraph(int TotalKcal) {
     else if (15 < localTime->tm_hour && localTime->tm_hour <= 24) {
         Gragh_Dinner(TotalKcal);
     }
-    
 }
