@@ -91,6 +91,5 @@ int KcalGraph(int TotalKcal) {
     else if (15 < localTime->tm_hour && localTime->tm_hour <= 24) {
         Gragh_Dinner(TotalKcal);
     }
-
     
 }

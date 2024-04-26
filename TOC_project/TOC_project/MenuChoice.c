@@ -80,7 +80,6 @@ int menuChoice() {
 			return 0;
 		}
 		else if (menuCode == 20) {
-			/*system("cls");*/
 			break;
 		}
 	}
