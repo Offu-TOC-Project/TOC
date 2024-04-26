@@ -7,6 +7,8 @@
 
 #define SIZE 20
 
+int x = 21;
+int y = 5;
 
 typedef struct {
 	char FoodName[20];
@@ -60,10 +62,10 @@ int printKcal() {
 	for (int i = 0; i < SIZE; i++) {
 		for (int j = 0; j < sizeof(FoodList) / sizeof(FoodList[0]); j++) {
 			if (strcmp(SaveName[i], FoodList[j].FoodName) == 0 && SaveGram[i] == FoodList[j].Gram) {
-				GotoXY(1, 7);
+				GotoXY(x, y + 7);
 				printf("%s %d g의 칼로리는 %d kcal야.\n", FoodList[j].FoodName, FoodList[j].Gram, FoodList[j].Kcal);
 				
-				GotoXY(1, 10);
+				GotoXY(x, y + 20);
 				KcalGraph(TotalKcal());						// 그래프 출력
 			}
 		}
@@ -76,15 +78,15 @@ int RecordDiet() {
 			if (strcmp(SaveName[i], FoodList[j].FoodName) == 0 && SaveGram[i] == FoodList[j].Gram) {
 
 				SaveKcal[i] = FoodList[j].Kcal;
-				GotoXY(40, i + 2);
-				printf("%s %d g %d kcal\n", SaveName[i], SaveGram[i], FoodList[j].Kcal);			// 입력된 식단 누적 기록
+				GotoXY(x+8, i + 10);
+				printf("%s %d g %d kcal\n", SaveName[i], SaveGram[i], FoodList		[j].Kcal);			// 입력된 식단 누적 기록
 			}
 		}
 	}
 	for (int i = 0; i < SIZE; i++) {
-		GotoXY(40, i + 5);
+		GotoXY(x, i + 15);
 		printf("----------------------------------\n");
-		GotoXY(40, i + 6);
+		GotoXY(x+8, i + 16);
 		printf("총 합계 : %d kcal \n", TotalKcal(TotalKcal));
 		break;
 	}
@@ -96,16 +98,24 @@ int FoodRecord() {
 	CursorA();
 	int i = 0;
 	while(1){
+
+		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 14);
+
+		GotoXY(x, y);
 		printf("┌──────────────────────────────┐\n\n");
+		GotoXY(x, y + 2);
 		printf("     오늘 먹은 음식 :                      ");
-		printf("\n\n     음식 양 : ___ g                 ");
-		printf("\n\n└──────────────────────────────┘\n");
+		GotoXY(x, y + 4);
+		printf("     음식 양 : ___ g                 ");
+		GotoXY(x, y + 6);
+		printf("└──────────────────────────────┘\n");
 		
-		GotoXY(22, 2);
+		GotoXY(x + 22, y + 2);
 		scanf(" %s", SaveName[i]);
-		GotoXY(15, 4);
+		GotoXY(x + 15, y + 4);
 		scanf(" %d", &SaveGram[i]);
 		i++;
+		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 
 		TotalKcal();
 		printKcal();

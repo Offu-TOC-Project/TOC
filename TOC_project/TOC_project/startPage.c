@@ -250,6 +250,7 @@ void prints_ch4() {
 
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 }
+
 void prints_ch5() {
 
 	int colorNum = 14;

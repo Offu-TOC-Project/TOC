@@ -27,8 +27,8 @@ int keyControl() {
 }
 
 int menuArrow() {
-	int x = 1;
-	int y = 15;
+	int x = 21;
+	int y = 20;
 	Cursor();
 	GotoXY(x, y);
 	printf("> 더 입력할래.\n");		
@@ -41,7 +41,7 @@ int menuArrow() {
 		int n = keyControl();
 		switch (n) {
 			case LEFT: {
-				if (x > 1) {	
+				if (x > 21) {	
 					GotoXY(x, y);
 					printf(" ");
 					GotoXY(x - 20, y);
@@ -52,7 +52,7 @@ int menuArrow() {
 				break;
 			}
 			case RIGHT: {
-				if (x < 21) {	
+				if (x < 41) {	
 					GotoXY(x, y);
 					printf(" ");
 					GotoXY(x + 20, y);
@@ -63,7 +63,7 @@ int menuArrow() {
 				break;
 			}
 			case SPACE: {
-				return x - 1;
+				return x - 21;
 			}
 		}
 	}
