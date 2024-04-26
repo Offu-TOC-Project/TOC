@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\startPage.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|solutionrelative:TOC_project\\startPage.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\FoodRecord.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|solutionrelative:TOC_project\\FoodRecord.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -31,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|solutionrelative:TOC_project\\Cursor.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\startPage.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|solutionrelative:TOC_project\\startPage.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\Exercise.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{409A3B60-CE63-4131-8B0F-9AF7CE007A24}|TOC_project\\TOC_project.vcxproj|solutionrelative:TOC_project\\Exercise.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -57,7 +57,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 172,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,13 +65,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MenuChoice.c",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\MenuChoice.c",
               "RelativeDocumentMoniker": "TOC_project\\MenuChoice.c",
               "ToolTip": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\MenuChoice.c",
               "RelativeToolTip": "TOC_project\\MenuChoice.c",
-              "ViewState": "AQIAADwAAAAAAAAAAAAnwEsAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-25T02:22:22.755Z",
               "EditorCaption": ""
@@ -86,8 +86,7 @@
               "RelativeToolTip": "..\\..\\..\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\last_screen.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-04-26T00:55:44.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T00:55:44.03Z"
             },
             {
               "$type": "Document",
@@ -99,12 +98,11 @@
               "RelativeToolTip": "TOC_project\\Exercise.h",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-26T01:52:08.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T01:52:08.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Cursor.c",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\Cursor.c",
               "RelativeDocumentMoniker": "TOC_project\\Cursor.c",
@@ -112,8 +110,7 @@
               "RelativeToolTip": "TOC_project\\Cursor.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-04-25T00:55:33.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T00:55:33.206Z"
             },
             {
               "$type": "Document",
@@ -125,18 +122,17 @@
               "RelativeToolTip": "TOC_project\\exerciseList.c",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-04-26T01:52:15.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T01:52:15.939Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "startPage.c",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\startPage.c",
               "RelativeDocumentMoniker": "TOC_project\\startPage.c",
               "ToolTip": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\startPage.c",
               "RelativeToolTip": "TOC_project\\startPage.c",
-              "ViewState": "AQIAALoBAAAAAAAAAAAAAMwBAAAAAAAA",
+              "ViewState": "AQIAAAgBAAAAAAAAAAAswB4BAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-23T07:03:46.503Z",
               "EditorCaption": ""
@@ -161,20 +157,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FoodRecord.c",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\FoodRecord.c",
               "RelativeDocumentMoniker": "TOC_project\\FoodRecord.c",
               "ToolTip": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\FoodRecord.c",
               "RelativeToolTip": "TOC_project\\FoodRecord.c",
-              "ViewState": "AQIAADkAAAAAAAAAAAAnwEgAAAASAAAA",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAnwEgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-25T06:22:50.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "personalKcal.c",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\personalKcal.c",
               "RelativeDocumentMoniker": "TOC_project\\personalKcal.c",
@@ -182,12 +178,11 @@
               "RelativeToolTip": "TOC_project\\personalKcal.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-04-25T05:36:37.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T05:36:37.775Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "burnCalories.c",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\burnCalories.c",
               "RelativeDocumentMoniker": "TOC_project\\burnCalories.c",
@@ -195,12 +190,11 @@
               "RelativeToolTip": "TOC_project\\burnCalories.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-04-25T02:39:53.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T02:39:53.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "KcalGraph.c",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\KcalGraph.c",
               "RelativeDocumentMoniker": "TOC_project\\KcalGraph.c",
@@ -208,33 +202,11 @@
               "RelativeToolTip": "TOC_project\\KcalGraph.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-04-25T02:53:40.136Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "2d290484-394c-491c-bb83-f0932778767a",
-        "Display": 0,
-        "X": 240,
-        "Y": 93,
-        "Width": 954,
-        "Height": 773,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+              "WhenOpened": "2024-04-25T02:53:40.136Z"
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "main.c",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\tocproject_test\\TOC_project\\TOC_project\\main.c",
               "RelativeDocumentMoniker": "TOC_project\\main.c",

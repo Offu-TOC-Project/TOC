@@ -233,30 +233,7 @@ void prints_ch2() {
 
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 }
-void prints_ch3() {
 
-	int colorNum = 14;
-	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), colorNum);
-	gotoxy(23, 5);	printf("         ■■■■■■■■         \n");
-	gotoxy(23, 6);	printf("       ■■■■■■■■■■■■   \n");
-	gotoxy(23, 7);	printf("      ■■■■■■■■■■■■■■\n");
-	gotoxy(23, 8);	printf("     ■■■■■■    ■■■■■■ \n");
-	gotoxy(23, 9);	printf("    ■■■■          ■■■■    \n");
-	gotoxy(23, 10);	printf("   ■■               ■■        \n");
-	gotoxy(23, 11);	printf("   ■    ■■■■  ■■■■   ■  \n");
-	gotoxy(23, 12);	printf("   ■     ●     ●     ■        \n");
-	gotoxy(23, 13);	printf("    ■     _____     ■           \n");
-	gotoxy(23, 14);	printf("     ■            ■             \n");
-	gotoxy(23, 15);	printf("      ■          ■              \n");
-	gotoxy(23, 16);	printf("     ■      ♥     ■            \n");
-	gotoxy(23, 17);	printf("    ■       ♥      ■           \n");
-	gotoxy(23, 18);	printf("  ■  ■            ■  ■        \n");
-	gotoxy(23, 19);	printf("     ■■■■■■■■■■■■■■ \n");
-	gotoxy(23, 20);	printf("       ■        ■               \n");
-	gotoxy(23, 21);	printf("       ■        ■               \n");
-
-	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
-}
 void prints_ch4() {
 
 	int colorNum = 14;
@@ -304,31 +281,6 @@ void prints_ch5() {
 	gotoxy(23, 21);	printf("       ■        ■               \n");
 
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
-}
-void prints_ch6() {
-	int colorNum = 14;
-	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), colorNum);
-
-	gotoxy(23, 5);	printf("         ■■■■■■■■         \n");
-	gotoxy(23, 6);	printf("       ■■■■■■■■■■■■   \n");
-	gotoxy(23, 7);	printf("      ■■■■■■■■■■■■■■\n");
-	gotoxy(23, 8);	printf("     ■■■■■■    ■■■■■■ \n");
-	gotoxy(23, 9);	printf("    ■■■■          ■■■■    \n");
-	gotoxy(23, 10);	printf("   ■■               ■■        \n");
-	gotoxy(23, 11);	printf("   ■   ■■■■   ■■■■   ■  \n");
-	gotoxy(23, 12);	printf("   ■     ■     ■     ■        \n");
-	gotoxy(23, 13);	printf("    ■     _____     ■           \n");
-	gotoxy(23, 14);	printf("     ■            ■             \n");
-	gotoxy(23, 15);	printf("      ■          ■              \n");
-	gotoxy(23, 16);	printf("     ■     ♥      ■            \n");
-	gotoxy(23, 17);	printf("    ■      ♥       ■           \n");
-	gotoxy(23, 18);	printf("  ■  ■            ■  ■        \n");
-	gotoxy(23, 19);	printf("     ■■■■■■■■■■■■■■ \n");
-	gotoxy(23, 20);	printf("       ■        ■               \n");
-	gotoxy(23, 21);	printf("       ■        ■               \n");
-
-	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
-
 }
 
 // 방향키 설정
