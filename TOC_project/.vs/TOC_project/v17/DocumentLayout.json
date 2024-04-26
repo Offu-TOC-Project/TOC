@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "TOC_project\\last_screen.c",
               "ToolTip": "C:\\Users\\User\\Desktop\\tocProject\\TOC\\TOC_project\\TOC_project\\last_screen.c",
               "RelativeToolTip": "TOC_project\\last_screen.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-26T00:44:53.439Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "TOC_project\\Cursor.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-25T00:56:01.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T00:56:01.955Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "TOC_project\\Cursor.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-04-25T00:55:33.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T00:55:33.206Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "TOC_project\\startPage.c",
               "ViewState": "AQIAAKoBAAAAAAAAAAAAALwBAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-04-23T07:03:46.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T07:03:46.503Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "TOC_project\\main.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-04-18T07:24:30.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T07:24:30.916Z"
             }
           ]
         }

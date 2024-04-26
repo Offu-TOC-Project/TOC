@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <Windows.h>
-#include "Cursor.h"
 #define UP 1
 #define DOWN 2
 #define SPACE 3
@@ -9,7 +8,7 @@
 
 int last_screen() {
 	//	칼로리 합계로 인한 성공 / 실패 화면 함수
-		if (Totalkcal < presonalKcal()) {
+		if (TotalKcal() < personalKcal()) {
 			prints_ch2();
 			gotoxy(22, 25);
 			printf("오늘의 식단관리 성공!!\n");
