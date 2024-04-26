@@ -24,6 +24,9 @@
     <ClCompile Include="Cursor.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="last_screen.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cursor.h">
