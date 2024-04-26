@@ -88,6 +88,7 @@ int RecordDiet() {
 		printf("ÃÑ ÇÕ°è : %d kcal \n", TotalKcal(TotalKcal));
 		break;
 	}
+	system("cls");
 }
 
 int FoodRecord() {
