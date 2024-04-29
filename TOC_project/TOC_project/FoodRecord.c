@@ -79,7 +79,7 @@ int RecordDiet() {
 
 				SaveKcal[i] = FoodList[j].Kcal;
 				GotoXY(x+8, i + 10);
-				printf("%s %d g %d kcal\n", SaveName[i], SaveGram[i], FoodList		[j].Kcal);			// 입력된 식단 누적 기록
+				printf("%s %d g %d kcal\n", SaveName[i], SaveGram[i], FoodList[j].Kcal);			// 입력된 식단 누적 기록
 			}
 		}
 	}
@@ -117,7 +117,6 @@ int FoodRecord() {
 		i++;
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 
-		TotalKcal();
 		printKcal();
 				
 		if (menuChoice() == 20) {

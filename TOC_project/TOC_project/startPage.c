@@ -358,12 +358,12 @@ void choice_code() {
 		prints_ch2();
 		GotoXY(19, 25);
 		printf("야호~ 고마워! 그럼 바로 시작하자ㅎ_ㅎ\n");
-		Sleep(4000);
+		waitForSpaceBar();
 		system("cls");
 		prints_ch5();
 		GotoXY(22, 25);
 		printf("오늘 먹을 식단을 적어줄래?\n");
-		Sleep(4000);
+		waitForSpaceBar();
 		system("cls");
 
 	}
@@ -377,11 +377,33 @@ void choice_code() {
 	}
 }
 
-char name[100]; // 사용자 이름 입력받기
+int waitForSpaceBar() {
+	int spacePressed = 0; 
+	DWORD startTicks = GetTickCount(); 
+
+	while (!spacePressed) {
+		if (_kbhit()) { 
+			char input = getch();
+			if (input == ' ') { 
+				spacePressed = 1; 
+				break; 
+			}
+		}
+
+		DWORD currentTicks = GetTickCount();
+		if (currentTicks - startTicks >= 3000) {
+			break; 
+		}
+
+		Sleep(100); 
+	}
+}
+
+char name[100]; 
 
 int start() {
 
-	Cursor(); // 커서 없애는 함수
+	Cursor(); 
 
 	printT(); printa1(); printk(); printe();
 	printO(); print_f1(); print_f2();
@@ -389,7 +411,7 @@ int start() {
 
 	prints_ch1();
 
-	Sleep(5000);
+	Sleep(10000);
 	int colorNum = 15;
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), colorNum);
 	system("cls");  // 메인화면 전환
@@ -416,31 +438,31 @@ int start() {
 	prints_ch5();
 	GotoXY(22, 25);
 	printf("안녕? 나는 %s(이)라고 해!\n", name);
-	Sleep(3000);
+	waitForSpaceBar();
 	system("cls");
 
 	prints_ch2();
 	GotoXY(28, 25);
 	printf("만나서 반가워!!\n");
-	Sleep(3000);
+	waitForSpaceBar();
 	system("cls");
 
 	prints_ch4();
 	GotoXY(20, 25);
 	printf("요새 내가 살이 많이 찐거 같아ㅠ.ㅠ\n");
-	Sleep(3000);
+	waitForSpaceBar();
 	system("cls");
 
 	prints_ch4();
 	GotoXY(22, 25);
 	printf("식단관리가 필요할 것 같아!!\n");
-	Sleep(3000);
+	waitForSpaceBar();
 	system("cls");
 
 	prints_ch5();
 	GotoXY(23, 25);
 	printf("식단관리 좀 도와줄래?\n");
-	Sleep(3000);
+	waitForSpaceBar();
 	system("cls");
 
 	// 선택지 제시
