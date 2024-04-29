@@ -18,45 +18,45 @@
     <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\burnCalories.c">
+    <ClCompile Include="burnCalories.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Cursor.c">
+    <ClCompile Include="Cursor.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\exerciseList.c">
+    <ClCompile Include="exerciseList.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\FoodRecord.c">
+    <ClCompile Include="FoodRecord.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\GotoXY.c">
+    <ClCompile Include="GotoXY.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\KcalGraph.c">
+    <ClCompile Include="KcalGraph.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\lastScreen.c">
+    <ClCompile Include="lastScreen.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\MenuChoice.c">
+    <ClCompile Include="MenuChoice.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\personalKcal.c">
+    <ClCompile Include="personalKcal.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\startPage.c">
+    <ClCompile Include="startPage.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Cursor.h">
+    <ClInclude Include="Cursor.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Exercise.h">
+    <ClInclude Include="Exercise.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\GOTOXY.h">
+    <ClInclude Include="GOTOXY.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
